@@ -26,4 +26,4 @@ jobs:
           tag: ${{ steps.get_version.outputs.VERSION }}
           container_name: remix-demo
           container_port: 3000
-          host_port: 300
+          host_port: 300o
