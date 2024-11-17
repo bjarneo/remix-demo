@@ -17,7 +17,7 @@ jobs:
         run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
 
       - name: Deploy to production
-        uses: bjarneo/copepod/.github/actions/copepod/action.yml@main
+        uses: bjarneo/copepod@main
         with:
           host: 65.108.80.226
           user: root
